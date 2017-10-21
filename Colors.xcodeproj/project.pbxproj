@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		7BF741D91F9AFA2600457FEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF741D81F9AFA2600457FEC /* AppDelegate.swift */; };
-		7BF741DB1F9AFA2600457FEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF741DA1F9AFA2600457FEC /* ViewController.swift */; };
 		7BF741DE1F9AFA2600457FEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF741DC1F9AFA2600457FEC /* Main.storyboard */; };
 		7BF741E11F9AFA2600457FEC /* Colors.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BF741DF1F9AFA2600457FEC /* Colors.xcdatamodeld */; };
 		7BF741E31F9AFA2600457FEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF741E21F9AFA2600457FEC /* Assets.xcassets */; };
 		7BF741E61F9AFA2600457FEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF741E41F9AFA2600457FEC /* LaunchScreen.storyboard */; };
 		7BF741F11F9AFA2600457FEC /* ColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF741F01F9AFA2600457FEC /* ColorsTests.swift */; };
 		7BF741FC1F9AFA2600457FEC /* ColorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF741FB1F9AFA2600457FEC /* ColorsUITests.swift */; };
+		7BF7420A1F9AFD3600457FEC /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF742091F9AFD3600457FEC /* ColorsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		7BF741D51F9AFA2600457FEC /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF741D81F9AFA2600457FEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7BF741DA1F9AFA2600457FEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7BF741DD1F9AFA2600457FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7BF741E01F9AFA2600457FEC /* Colors.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Colors.xcdatamodel; sourceTree = "<group>"; };
 		7BF741E21F9AFA2600457FEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		7BF741F71F9AFA2600457FEC /* ColorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF741FB1F9AFA2600457FEC /* ColorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsUITests.swift; sourceTree = "<group>"; };
 		7BF741FD1F9AFA2600457FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BF742091F9AFD3600457FEC /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				7BF741D81F9AFA2600457FEC /* AppDelegate.swift */,
-				7BF741DA1F9AFA2600457FEC /* ViewController.swift */,
+				7BF742091F9AFD3600457FEC /* ColorsViewController.swift */,
 				7BF741DC1F9AFA2600457FEC /* Main.storyboard */,
 				7BF741E21F9AFA2600457FEC /* Assets.xcassets */,
 				7BF741E41F9AFA2600457FEC /* LaunchScreen.storyboard */,
@@ -263,7 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BF741E11F9AFA2600457FEC /* Colors.xcdatamodeld in Sources */,
-				7BF741DB1F9AFA2600457FEC /* ViewController.swift in Sources */,
+				7BF7420A1F9AFD3600457FEC /* ColorsViewController.swift in Sources */,
 				7BF741D91F9AFA2600457FEC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
